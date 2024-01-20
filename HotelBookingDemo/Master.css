@@ -1,0 +1,122 @@
+/*
+
+    text-align: center;
+    direction: ltr;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    letter-spacing: 10px;
+    width: 30%;
+    line-height: 100px;
+    text-decoration-line: underline overline line-through;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration: underline black wavy;
+
+    text-shadow: H-shadow V-shadow Blur color;
+
+    box-shadow: H-shadow V-shadow Blur Spread color Inset;
+
+    white-space: nowrap;
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 100%;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    // shorthand for font.
+    font: italic small-caps bold 100px fantasy;
+    background-image: url(../Project1/Images/snake.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: 300px 300px;
+    background-size: cover;
+    background-size: contain;
+    background-origin: padding-box;
+    background: red url(../Project1/Images/snake.jpeg) no-repeat right top/contain content-box;
+    background-image: linear-gradient(to bottom, red, white, black);
+    background-image: radial-gradient(ellipse, red, white, black);
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(34, 34, 40);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    box-shadow: 0px 4px 10px 8px black;
+}
+
+.logo {
+    text-decoration: none;
+    color: bisque;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    background-size: contain;
+}
+
+.navbar .home {
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar a:hover{
+    color: teal;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+.main {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 40);
+    color: white;
+    text-align: center;
+}
+
+
+.main .welcom {
+    font-size: 80px;
+    word-spacing: 15px;
+    text-transform: capitalize;
+    line-height: 150px;
+}
+
+.headp {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+}
