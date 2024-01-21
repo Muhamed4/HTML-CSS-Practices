@@ -1,58 +1,66 @@
 /*
 
-    text-align: center;
-    direction: ltr;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    letter-spacing: 10px;
-    width: 30%;
-    line-height: 100px;
-    text-decoration-line: underline overline line-through;
-    text-decoration-color: green;
-    text-decoration-style: wavy;
-    text-decoration: underline black wavy;
+        text-align: center;
+        direction: ltr;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        letter-spacing: 10px;
+        width: 30%;
+        line-height: 100px;
+        text-decoration-line: underline overline line-through;
+        text-decoration-color: green;
+        text-decoration-style: wavy;
+        text-decoration: underline black wavy;
 
-    text-shadow: H-shadow V-shadow Blur color;
+        text-shadow: H-shadow V-shadow Blur color;
 
-    box-shadow: H-shadow V-shadow Blur Spread color Inset;
+        box-shadow: H-shadow V-shadow Blur Spread color Inset;
 
-    white-space: nowrap;
-    white-space: pre;
-    white-space: pre-wrap;
-    white-space: pre-line;
-    word-wrap: break-word;
-    font-family: monospace;
-    font-size: 100%;
-    font-style: italic;
-    font-variant: small-caps;
-    font-weight: bold;
-    // shorthand for font.
-    font: italic small-caps bold 100px fantasy;
-    background-image: url(../Project1/Images/snake.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left top;
-    background-size: 300px 300px;
-    background-size: cover;
-    background-size: contain;
-    background-origin: padding-box;
-    background: red url(../Project1/Images/snake.jpeg) no-repeat right top/contain content-box;
-    background-image: linear-gradient(to bottom, red, white, black);
-    background-image: radial-gradient(ellipse, red, white, black);
-    float: left;
-    clear: both;
-    overflow: hidden;
-    overflow: visible;
-    overflow: scroll;
-    overflow: auto;
-    position: relative;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-    list-style-position: inside;
-    list-style-type: armenian;
-    list-style-image: url();
-    border-spacing: 10px;
+        white-space: nowrap;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: pre-line;
+        word-wrap: break-word;
+        font-family: monospace;
+        font-size: 100%;
+        font-style: italic;
+        font-variant: small-caps;
+        font-weight: bold;
+        // shorthand for font.
+        font: italic small-caps bold 100px fantasy;
+        background-image: url(../Project1/Images/snake.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left top;
+        background-size: 300px 300px;
+        background-size: cover;
+        background-size: contain;
+        background-origin: padding-box;
+        background: red url(../Project1/Images/snake.jpeg) no-repeat right top/contain content-box;
+        background-image: linear-gradient(to bottom, red, white, black);
+        background-image: radial-gradient(ellipse, red, white, black);
+        float: left;
+        clear: both;
+        overflow: hidden;
+        overflow: visible;
+        overflow: scroll;
+        overflow: auto;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+        list-style-position: inside;
+        list-style-type: armenian;
+        list-style-image: url();
+        border-spacing: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: flexDirection flexWrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+
 */
 
 
@@ -68,3 +76,33 @@
 }
 
 
+.parent {
+    background: gold;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.parent div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.item1 {
+    background: green;
+}
+
+.item2 {
+    background: red;
+}
+
+.item3 {
+    background: blue;
+}
+
+.item4 {
+    background: violet;
+}
